@@ -1,0 +1,62 @@
+/* Global Styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Color  */
+  --Logo-Color: #95bf47;
+  --White-Color: #ffffff;
+  --Black-Color: #000000;
+  --H3-Color: #08445e;
+  --Section-Background-Color: #f9fafb;
+
+  /* Font Size  */
+  font-size: 62.5%;
+  --H1-Size: 48px;
+  --H2-Size: 40px;
+  --H3-Size: 32px;
+  --Paragraph-Size: 20px;
+  --Typeface-Medium: 18px;
+  --Typeface-Small: 14px;
+}
+
+::selection {
+  background-color: var(--Logo-Color);
+  color: var(--Black-Color);
+}
+
+.container {
+  max-width: 1475px;
+  margin: auto;
+  padding: 2rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: var(--Typeface-Medium);
+}

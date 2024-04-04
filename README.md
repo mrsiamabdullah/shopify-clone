@@ -1,2 +1,2 @@
-# shopify-clone
+# shopify homepage clone
  
